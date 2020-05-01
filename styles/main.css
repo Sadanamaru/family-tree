@@ -58,14 +58,14 @@ textarea {
     opacity: 0.25;
     cursor: nwse-resize/*url(../resources/cursors/ScaleTool.png) 17 17, nwse-resize;*/
 }
-.tooltip {  
-  padding: .5em;  
+.tooltip {
+  padding: .5em;
   pointer-events: none;
-  position: absolute; 
+  position: absolute;
   border: 1px solid #fff;
   border-radius: 5px;
-  color: #ccc;  
-  background-color: #333;    
+  color: #ccc;
+  background-color: #333;
 }
 .tooltip td {
   padding-left: .2em;
@@ -75,13 +75,13 @@ textarea {
   font-family: Verdana, sans-serif;
 }
 .tooltip td:nth-child(1) {
-  text-align: right;  
+  text-align: right;
 }
 .tooltip .tooltip-value {
-  color: #fff;  
+  color: #fff;
 }
 .tooltip .tooltip-info:last-of-type td, {
-  padding-bottom: 3px;  
+  padding-bottom: 3px;
 }
 .tooltip .tooltip-info td, p.tooltip .node-tooltip-info.empty-info td{
   padding-bottom: 6px;
@@ -280,15 +280,15 @@ nav.tree-name .navbar-brand #loaded-tree-name.modified:hover {
 }
 nav .open>.dropdown-menu {
   -webkit-transform: scale(1, 1);
-  transform: scale(1, 1);   
+  transform: scale(1, 1);
 }
 nav .dropdown-menu {
   -webkit-transform-origin: top;
   transform-origin: top;
-  -webkit-animation-fill-mode: forwards;  
-  animation-fill-mode: forwards; 
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   -webkit-transform: scale(1, 0);
-  display: block;  
+  display: block;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
 }
@@ -323,15 +323,15 @@ nav#selection-in-touch-device{
     border-color: #18354f;
 }
 
-nav#selection-in-touch-device li a, 
+nav#selection-in-touch-device li a,
 nav#selection-in-touch-device li a:hover{
   color: #fff;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-nav#selection-in-touch-device .navbar-nav>.open>a, 
-nav#selection-in-touch-device .navbar-nav>.open>a:focus, 
+nav#selection-in-touch-device .navbar-nav>.open>a,
+nav#selection-in-touch-device .navbar-nav>.open>a:focus,
 nav#selection-in-touch-device .navbar-nav>.open>a:hover {
     color: #fff;
     background-color: #1c3f5d;
